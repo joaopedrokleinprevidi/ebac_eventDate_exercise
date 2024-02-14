@@ -1,0 +1,160 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  width: 100%;
+  height: 22rem;
+  filter: brightness(40%);
+}
+header .header--content-center {
+  z-index: 1;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .header--content-center h1 {
+  text-align: center;
+  margin: 2rem;
+  color: white;
+}
+header .header--div {
+  background-color: white;
+  width: 70%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.4rem;
+}
+header .header--div span {
+  margin: 0.2rem;
+}
+header .header--div span > p {
+  font-weight: bold;
+}
+header .header--div button {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  background-color: #4f2ac3;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#1b6ca7, #442bdb, #442bdb, #89223b, #89223b, #9c791d, #9c791d, #89223b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main > div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem;
+}
+main > div img {
+  margin: 2rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 0.5rem;
+}
+main > div span {
+  color: white;
+}
+main > div span p {
+  margin: 1rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+@media screen and (max-width: 768px) {
+  header img {
+    height: 50rem;
+  }
+  header .header--div {
+    flex-direction: column;
+    justify-content: left;
+  }
+  header .header--div button {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  header .header--div span {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    text-align: center;
+  }
+  main > div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  main > div img {
+    width: 90%;
+    height: 250px;
+  }
+  main > div span {
+    font-size: 1.5rem;
+  }
+  main > div span p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  header img {
+    height: 45rem;
+  }
+  header .header--div {
+    width: 80%;
+  }
+  header .header--div span {
+    font-size: 1.8rem;
+    margin: 0.7rem;
+  }
+  header .header--div button {
+    font-size: 1.8rem;
+  }
+  main > div span {
+    font-size: 1.8rem;
+    margin: 2rem 0rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  header img {
+    height: 55rem;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1299px) {
+  header img {
+    height: 35rem;
+  }
+  header .header--div {
+    width: 80%;
+  }
+  header .header--div span {
+    font-size: 1.8rem;
+    margin: 0.7rem;
+  }
+  header .header--div button {
+    font-size: 1.8rem;
+  }
+  main > div span {
+    font-size: 1.8rem;
+    margin: 2rem 0rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
